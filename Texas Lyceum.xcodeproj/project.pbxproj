@@ -1,0 +1,1116 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2356E501194E7634009BE67A /* McAllen Logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2356E4FF194E7634009BE67A /* McAllen Logo.jpg */; };
+		2356E502194E7634009BE67A /* South-Padre-Island-logo1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2356E500194E7634009BE67A /* South-Padre-Island-logo1.jpg */; };
+		2356E504194E7676009BE67A /* edinburg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2356E503194E7676009BE67A /* edinburg.jpg */; };
+		2356E506194E7EDF009BE67A /* cityofedinburg-logo-final.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2356E505194E7EDF009BE67A /* cityofedinburg-logo-final.jpg */; };
+		6A678BC61951E16B0003B1C0 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A678BC51951E16B0003B1C0 /* MessageUI.framework */; };
+		6A678BCA1951E2420003B1C0 /* emailIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A678BC91951E2420003B1C0 /* emailIcon.png */; };
+		C70623351909FB8400FC47F4 /* RGVimg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C70623341909FB8400FC47F4 /* RGVimg.jpg */; };
+		C7062337190A035B00FC47F4 /* TexasLyceum logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7062336190A035B00FC47F4 /* TexasLyceum logo.jpg */; };
+		C71879FB19522C7D007950EF /* dr king screen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C71879FA19522C7D007950EF /* dr king screen.jpg */; };
+		C73D195D198714C400F532B3 /* Sponsors.m in Sources */ = {isa = PBXBuildFile; fileRef = C73D195C198714C400F532B3 /* Sponsors.m */; };
+		C73FE66A19574B6300F4C967 /* babysitter.png in Resources */ = {isa = PBXBuildFile; fileRef = C73FE66919574B6300F4C967 /* babysitter.png */; };
+		C73FE66E1957521E00F4C967 /* MissionChamberOfCommerce2.png in Resources */ = {isa = PBXBuildFile; fileRef = C73FE66C1957521E00F4C967 /* MissionChamberOfCommerce2.png */; };
+		C73FE66F1957521E00F4C967 /* pharr-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C73FE66D1957521E00F4C967 /* pharr-logo.png */; };
+		C73FE6721957867A00F4C967 /* care-logo-tagline-transp-265.png in Resources */ = {isa = PBXBuildFile; fileRef = C73FE6701957867A00F4C967 /* care-logo-tagline-transp-265.png */; };
+		C73FE6731957867A00F4C967 /* sitterCity.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C73FE6711957867A00F4C967 /* sitterCity.jpg */; };
+		C73FE6791957D2E500F4C967 /* arrow-left.png in Resources */ = {isa = PBXBuildFile; fileRef = C73FE6741957D2E500F4C967 /* arrow-left.png */; };
+		C73FE67A1957D2E500F4C967 /* arrow-right.png in Resources */ = {isa = PBXBuildFile; fileRef = C73FE6751957D2E500F4C967 /* arrow-right.png */; };
+		C73FE67B1957D2E500F4C967 /* check-false.png in Resources */ = {isa = PBXBuildFile; fileRef = C73FE6761957D2E500F4C967 /* check-false.png */; };
+		C73FE67C1957D2E500F4C967 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = C73FE6771957D2E500F4C967 /* home.png */; };
+		C73FE67D1957D2E500F4C967 /* resend.png in Resources */ = {isa = PBXBuildFile; fileRef = C73FE6781957D2E500F4C967 /* resend.png */; };
+		C73FE67F19587DAB00F4C967 /* planning-icon-large.png in Resources */ = {isa = PBXBuildFile; fileRef = C73FE67E19587DAB00F4C967 /* planning-icon-large.png */; };
+		C7525C66195E0233004DFE93 /* Texas Lyceum Logo New.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7525C65195E0233004DFE93 /* Texas Lyceum Logo New.jpg */; };
+		C7525C691960EF67004DFE93 /* facebook-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C7525C671960EF67004DFE93 /* facebook-icon.png */; };
+		C7525C6A1960EF67004DFE93 /* twitter-logo-icon-by-jon-bennallick-02.png in Resources */ = {isa = PBXBuildFile; fileRef = C7525C681960EF67004DFE93 /* twitter-logo-icon-by-jon-bennallick-02.png */; };
+		C7534ABE198F13930037C5E5 /* SpeakerBios.m in Sources */ = {isa = PBXBuildFile; fileRef = C7534ABD198F13930037C5E5 /* SpeakerBios.m */; };
+		C76156FF195112FB00C5132D /* MunecaRanch.JPG in Resources */ = {isa = PBXBuildFile; fileRef = C76156FE195112FB00C5132D /* MunecaRanch.JPG */; };
+		C7797A1919DF658000A6D9EF /* Big Tex Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C7797A1719DF658000A6D9EF /* Big Tex Logo.png */; };
+		C7797A1A19DF658000A6D9EF /* Visit Dallas Logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7797A1819DF658000A6D9EF /* Visit Dallas Logo.jpg */; };
+		C7797A1C19E0ACCD00A6D9EF /* Hensarling, Jeb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7797A1B19E0ACCD00A6D9EF /* Hensarling, Jeb.jpg */; };
+		C7831BE919D86D21006384A9 /* texasLyceumIcon1024px.png in Resources */ = {isa = PBXBuildFile; fileRef = C7831BE419D86D21006384A9 /* texasLyceumIcon1024px.png */; };
+		C7831BEA19D86D21006384A9 /* texasLyceumIcon120px.png in Resources */ = {isa = PBXBuildFile; fileRef = C7831BE519D86D21006384A9 /* texasLyceumIcon120px.png */; };
+		C7831BEB19D86D21006384A9 /* texasLyceumIcon58px.png in Resources */ = {isa = PBXBuildFile; fileRef = C7831BE619D86D21006384A9 /* texasLyceumIcon58px.png */; };
+		C7831BEC19D86D21006384A9 /* texasLyceumIcon60px.png in Resources */ = {isa = PBXBuildFile; fileRef = C7831BE719D86D21006384A9 /* texasLyceumIcon60px.png */; };
+		C7831BED19D86D21006384A9 /* texasLyceumIcon80px.png in Resources */ = {isa = PBXBuildFile; fileRef = C7831BE819D86D21006384A9 /* texasLyceumIcon80px.png */; };
+		C7831BFA19D86D3E006384A9 /* about.png in Resources */ = {isa = PBXBuildFile; fileRef = C7831BEF19D86D3E006384A9 /* about.png */; };
+		C7831BFB19D86D3E006384A9 /* briefcase.png in Resources */ = {isa = PBXBuildFile; fileRef = C7831BF019D86D3E006384A9 /* briefcase.png */; };
+		C7831BFC19D86D3E006384A9 /* contact Icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7831BF119D86D3E006384A9 /* contact Icon.jpg */; };
+		C7831BFD19D86D3E006384A9 /* contact Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C7831BF219D86D3E006384A9 /* contact Icon.png */; };
+		C7831BFE19D86D3E006384A9 /* contactIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = C7831BF319D86D3E006384A9 /* contactIcon.png */; };
+		C7831BFF19D86D3E006384A9 /* globe@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7831BF419D86D3E006384A9 /* globe@2x.png */; };
+		C7831C0019D86D3E006384A9 /* globeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = C7831BF519D86D3E006384A9 /* globeIcon.png */; };
+		C7831C0119D86D3E006384A9 /* house@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7831BF619D86D3E006384A9 /* house@2x.png */; };
+		C7831C0219D86D3E006384A9 /* man.png in Resources */ = {isa = PBXBuildFile; fileRef = C7831BF719D86D3E006384A9 /* man.png */; };
+		C7831C0319D86D3E006384A9 /* speaker.png in Resources */ = {isa = PBXBuildFile; fileRef = C7831BF819D86D3E006384A9 /* speaker.png */; };
+		C7831C0419D86D3E006384A9 /* SpeakerTabBar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7831BF919D86D3E006384A9 /* SpeakerTabBar.jpg */; };
+		C7831C1219D86D49006384A9 /* arrowItem.png in Resources */ = {isa = PBXBuildFile; fileRef = C7831C0619D86D49006384A9 /* arrowItem.png */; };
+		C7831C1319D86D49006384A9 /* schedule.png in Resources */ = {isa = PBXBuildFile; fileRef = C7831C0719D86D49006384A9 /* schedule.png */; };
+		C7831C1419D86D49006384A9 /* schedule2.png in Resources */ = {isa = PBXBuildFile; fileRef = C7831C0819D86D49006384A9 /* schedule2.png */; };
+		C7831C1519D86D49006384A9 /* schedule3.png in Resources */ = {isa = PBXBuildFile; fileRef = C7831C0919D86D49006384A9 /* schedule3.png */; };
+		C7831C1619D86D49006384A9 /* scheduleGrayPart.png in Resources */ = {isa = PBXBuildFile; fileRef = C7831C0A19D86D49006384A9 /* scheduleGrayPart.png */; };
+		C7831C1719D86D49006384A9 /* scheduleItem1.png in Resources */ = {isa = PBXBuildFile; fileRef = C7831C0B19D86D49006384A9 /* scheduleItem1.png */; };
+		C7831C1819D86D49006384A9 /* scheduleItem2.png in Resources */ = {isa = PBXBuildFile; fileRef = C7831C0C19D86D49006384A9 /* scheduleItem2.png */; };
+		C7831C1919D86D49006384A9 /* scheduleItem3.png in Resources */ = {isa = PBXBuildFile; fileRef = C7831C0D19D86D49006384A9 /* scheduleItem3.png */; };
+		C7831C1A19D86D49006384A9 /* scheduleNew.png in Resources */ = {isa = PBXBuildFile; fileRef = C7831C0E19D86D49006384A9 /* scheduleNew.png */; };
+		C7831C1B19D86D49006384A9 /* scheduleNewImproved.png in Resources */ = {isa = PBXBuildFile; fileRef = C7831C0F19D86D49006384A9 /* scheduleNewImproved.png */; };
+		C7831C1C19D86D49006384A9 /* scheduleNewImproved1.png in Resources */ = {isa = PBXBuildFile; fileRef = C7831C1019D86D49006384A9 /* scheduleNewImproved1.png */; };
+		C7831C1D19D86D49006384A9 /* scheduleWhitePart.png in Resources */ = {isa = PBXBuildFile; fileRef = C7831C1119D86D49006384A9 /* scheduleWhitePart.png */; };
+		C787BA801943DA6C00639A59 /* MapPin.m in Sources */ = {isa = PBXBuildFile; fileRef = C787BA7F1943DA6C00639A59 /* MapPin.m */; };
+		C789D63B1943AD3900C945CA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C789D63A1943AD3900C945CA /* MapKit.framework */; };
+		C792D19F191B19BB0021C82C /* About.png in Resources */ = {isa = PBXBuildFile; fileRef = C792D19D191B19BB0021C82C /* About.png */; };
+		C792D1A0191B19BB0021C82C /* Speaker.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C792D19E191B19BB0021C82C /* Speaker.jpg */; };
+		C795C24B1946285300F07B8D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C795C24A1946285300F07B8D /* CoreLocation.framework */; };
+		C799DA4F1918A064002E2F60 /* Me Morp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C799DA4E1918A064002E2F60 /* Me Morp.jpg */; };
+		C799DA551918A3D1002E2F60 /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = C799DA541918A3D1002E2F60 /* calendar.png */; };
+		C799DA5B1919D73F002E2F60 /* SessionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C799DA5A1919D73F002E2F60 /* SessionViewController.m */; };
+		C799DAA2191AF737002E2F60 /* FifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C799DAA1191AF737002E2F60 /* FifthViewController.m */; };
+		C799DAA5191AF9DF002E2F60 /* TableViewCellMore.m in Sources */ = {isa = PBXBuildFile; fileRef = C799DAA4191AF9DF002E2F60 /* TableViewCellMore.m */; };
+		C79ECF3B197C9B720021975D /* texasLyceumIcon29px.png in Resources */ = {isa = PBXBuildFile; fileRef = C79ECF38197C9B720021975D /* texasLyceumIcon29px.png */; };
+		C79ECF3C197C9B720021975D /* texasLyceumIcon40px.png in Resources */ = {isa = PBXBuildFile; fileRef = C79ECF39197C9B720021975D /* texasLyceumIcon40px.png */; };
+		C79ECF3D197C9B720021975D /* texasLyceumIcon60px.png in Resources */ = {isa = PBXBuildFile; fileRef = C79ECF3A197C9B720021975D /* texasLyceumIcon60px.png */; };
+		C7A40443192C562B00D4568C /* jearlogo7Small.png in Resources */ = {isa = PBXBuildFile; fileRef = C7A40442192C562B00D4568C /* jearlogo7Small.png */; };
+		C7A40445192D3FB000D4568C /* Mcallen.gif in Resources */ = {isa = PBXBuildFile; fileRef = C7A40444192D3FB000D4568C /* Mcallen.gif */; };
+		C7D15B9D193F9EC90065B56C /* Jim Darling.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7D15B9C193F9EC90065B56C /* Jim Darling.jpg */; };
+		C7D15BA0193FA2820065B56C /* About.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D15B9F193FA2820065B56C /* About.m */; };
+		C7DB18EA19DCEFAB00320B36 /* Amato, Charlie.png in Resources */ = {isa = PBXBuildFile; fileRef = C7DB18D719DCEFAB00320B36 /* Amato, Charlie.png */; };
+		C7DB18EB19DCEFAB00320B36 /* Austin, Jeff.png in Resources */ = {isa = PBXBuildFile; fileRef = C7DB18D819DCEFAB00320B36 /* Austin, Jeff.png */; };
+		C7DB18EC19DCEFAB00320B36 /* Carlson, Neal 2014.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C7DB18D919DCEFAB00320B36 /* Carlson, Neal 2014.jpeg */; };
+		C7DB18ED19DCEFAB00320B36 /* Davis, Ron.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C7DB18DA19DCEFAB00320B36 /* Davis, Ron.jpeg */; };
+		C7DB18EE19DCEFAB00320B36 /* Dippel, Skipper 2014.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C7DB18DB19DCEFAB00320B36 /* Dippel, Skipper 2014.jpeg */; };
+		C7DB18F019DCEFAB00320B36 /* Evans, Dick.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C7DB18DD19DCEFAB00320B36 /* Evans, Dick.jpeg */; };
+		C7DB18F219DCEFAB00320B36 /* Hoenig, Thomas.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C7DB18DF19DCEFAB00320B36 /* Hoenig, Thomas.jpeg */; };
+		C7DB18F319DCEFAB00320B36 /* Johnson, Renard 2014.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7DB18E019DCEFAB00320B36 /* Johnson, Renard 2014.jpg */; };
+		C7DB18F519DCEFAB00320B36 /* Paton, Len.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C7DB18E219DCEFAB00320B36 /* Paton, Len.jpeg */; };
+		C7DB18F619DCEFAB00320B36 /* Romano, Phil.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C7DB18E319DCEFAB00320B36 /* Romano, Phil.jpeg */; };
+		C7DB18F719DCEFAB00320B36 /* Stamets, Ben.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C7DB18E419DCEFAB00320B36 /* Stamets, Ben.jpeg */; };
+		C7DB18F819DCEFAB00320B36 /* Urrabazo, Ignacio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7DB18E519DCEFAB00320B36 /* Urrabazo, Ignacio.jpg */; };
+		C7DB18F919DCEFAB00320B36 /* Veasey, Marc 2014.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C7DB18E619DCEFAB00320B36 /* Veasey, Marc 2014.jpeg */; };
+		C7DB18FA19DCEFAB00320B36 /* Ware, Richard.png in Resources */ = {isa = PBXBuildFile; fileRef = C7DB18E719DCEFAB00320B36 /* Ware, Richard.png */; };
+		C7DB18FB19DCEFAB00320B36 /* White, Alan.png in Resources */ = {isa = PBXBuildFile; fileRef = C7DB18E819DCEFAB00320B36 /* White, Alan.png */; };
+		C7DB18FC19DCEFAB00320B36 /* Williston, Chris.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C7DB18E919DCEFAB00320B36 /* Williston, Chris.jpeg */; };
+		C7DB190019DCF03800320B36 /* Okada, Mark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7DB18FD19DCF03800320B36 /* Okada, Mark.jpg */; };
+		C7DB190119DCF03800320B36 /* Rosenblum, Harvey.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C7DB18FE19DCF03800320B36 /* Rosenblum, Harvey.jpeg */; };
+		C7DB190219DCF03800320B36 /* Smith, Evan.png in Resources */ = {isa = PBXBuildFile; fileRef = C7DB18FF19DCF03800320B36 /* Smith, Evan.png */; };
+		C7DB190D19DE25E100320B36 /* Dippel, Tee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7DB190319DE25E100320B36 /* Dippel, Tee.jpg */; };
+		C7DB190E19DE25E100320B36 /* Jones, Kat-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7DB190419DE25E100320B36 /* Jones, Kat-2.jpg */; };
+		C7DB190F19DE25E100320B36 /* Lyle, Sharon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7DB190519DE25E100320B36 /* Lyle, Sharon.jpg */; };
+		C7DB191019DE25E100320B36 /* Magrane, Cara.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7DB190619DE25E100320B36 /* Magrane, Cara.jpg */; };
+		C7DB191119DE25E100320B36 /* Pittard, Kirk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7DB190719DE25E100320B36 /* Pittard, Kirk.jpg */; };
+		C7DB191219DE25E100320B36 /* Plunkett, Mark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7DB190819DE25E100320B36 /* Plunkett, Mark.jpg */; };
+		C7DB191319DE25E100320B36 /* Reed, Holly.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7DB190919DE25E100320B36 /* Reed, Holly.jpg */; };
+		C7DB191419DE25E100320B36 /* Seaman, Aaron.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7DB190A19DE25E100320B36 /* Seaman, Aaron.jpg */; };
+		C7DB191519DE25E100320B36 /* Urbanek, Frank 2012.JPG in Resources */ = {isa = PBXBuildFile; fileRef = C7DB190B19DE25E100320B36 /* Urbanek, Frank 2012.JPG */; };
+		C7DB191619DE25E100320B36 /* Ware, William.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7DB190C19DE25E100320B36 /* Ware, William.jpg */; };
+		C7E4CA9019786A0B0070D26C /* NSDateFormatter+STTwitter.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E4CA7419786A0B0070D26C /* NSDateFormatter+STTwitter.m */; };
+		C7E4CA9119786A0B0070D26C /* NSError+STTwitter.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E4CA7619786A0B0070D26C /* NSError+STTwitter.m */; };
+		C7E4CA9219786A0B0070D26C /* NSString+STTwitter.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E4CA7819786A0B0070D26C /* NSString+STTwitter.m */; };
+		C7E4CA9319786A0B0070D26C /* STHTTPRequest+STTwitter.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E4CA7A19786A0B0070D26C /* STHTTPRequest+STTwitter.m */; };
+		C7E4CA9419786A0B0070D26C /* STTwitterAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E4CA7D19786A0B0070D26C /* STTwitterAPI.m */; };
+		C7E4CA9519786A0B0070D26C /* STTwitterAppOnly.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E4CA7F19786A0B0070D26C /* STTwitterAppOnly.m */; };
+		C7E4CA9619786A0B0070D26C /* STTwitterHTML.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E4CA8119786A0B0070D26C /* STTwitterHTML.m */; };
+		C7E4CA9719786A0B0070D26C /* STTwitterOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E4CA8319786A0B0070D26C /* STTwitterOAuth.m */; };
+		C7E4CA9819786A0B0070D26C /* STTwitterOS.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E4CA8519786A0B0070D26C /* STTwitterOS.m */; };
+		C7E4CA9919786A0B0070D26C /* STTwitterOSRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E4CA8719786A0B0070D26C /* STTwitterOSRequest.m */; };
+		C7E4CA9A19786A0B0070D26C /* BAVPlistNode.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E4CA8B19786A0B0070D26C /* BAVPlistNode.m */; };
+		C7E4CA9B19786A0B0070D26C /* JSONSyntaxHighlight.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E4CA8D19786A0B0070D26C /* JSONSyntaxHighlight.m */; };
+		C7E4CA9C19786A0B0070D26C /* STHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E4CA8F19786A0B0070D26C /* STHTTPRequest.m */; };
+		C7E4CA9E19786A340070D26C /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7E4CA9D19786A340070D26C /* Twitter.framework */; };
+		C7EEFA7119743D1F002B7B1C /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7EEFA7019743D1F002B7B1C /* Accounts.framework */; };
+		C7EEFA7319743D2A002B7B1C /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7EEFA7219743D2A002B7B1C /* Social.framework */; };
+		C7EF3AD91901A730007F1F1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7EF3AD81901A730007F1F1C /* Foundation.framework */; };
+		C7EF3ADB1901A730007F1F1C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7EF3ADA1901A730007F1F1C /* CoreGraphics.framework */; };
+		C7EF3ADD1901A730007F1F1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7EF3ADC1901A730007F1F1C /* UIKit.framework */; };
+		C7EF3AE31901A730007F1F1C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7EF3AE11901A730007F1F1C /* InfoPlist.strings */; };
+		C7EF3AE51901A730007F1F1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EF3AE41901A730007F1F1C /* main.m */; };
+		C7EF3AE91901A730007F1F1C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EF3AE81901A730007F1F1C /* AppDelegate.m */; };
+		C7EF3AEC1901A730007F1F1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7EF3AEA1901A730007F1F1C /* Main.storyboard */; };
+		C7EF3AEF1901A730007F1F1C /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EF3AEE1901A730007F1F1C /* FirstViewController.m */; };
+		C7EF3AF21901A730007F1F1C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EF3AF11901A730007F1F1C /* SecondViewController.m */; };
+		C7EF3AF41901A730007F1F1C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7EF3AF31901A730007F1F1C /* Images.xcassets */; };
+		C7EF3AFB1901A730007F1F1C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7EF3AFA1901A730007F1F1C /* XCTest.framework */; };
+		C7EF3AFC1901A730007F1F1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7EF3AD81901A730007F1F1C /* Foundation.framework */; };
+		C7EF3AFD1901A730007F1F1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7EF3ADC1901A730007F1F1C /* UIKit.framework */; };
+		C7EF3B051901A730007F1F1C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7EF3B031901A730007F1F1C /* InfoPlist.strings */; };
+		C7EF3B071901A730007F1F1C /* Texas_LyceumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EF3B061901A730007F1F1C /* Texas_LyceumTests.m */; };
+		C7EF3B121901AAFC007F1F1C /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EF3B111901AAFC007F1F1C /* ThirdViewController.m */; };
+		C7EF3B151901AC87007F1F1C /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EF3B141901AC87007F1F1C /* FourthViewController.m */; };
+		C7F539BE19D859DC00663B3C /* Texas Lyceum Flyer.png in Resources */ = {isa = PBXBuildFile; fileRef = C7F539BD19D859DC00663B3C /* Texas Lyceum Flyer.png */; };
+		C7FCD8CF1979BDFF002CA99C /* Texas Lyceum Logo New TableView.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7FCD8CE1979BDFF002CA99C /* Texas Lyceum Logo New TableView.jpg */; };
+		C7FCD8D21979C0B5002CA99C /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FCD8D11979C0B5002CA99C /* TableViewCell.m */; };
+		C7FCD8DC197A23B7002CA99C /* mailIcon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7FCD8DB197A23B7002CA99C /* mailIcon.jpg */; };
+		C7FCD8DF197ADE7B002CA99C /* splash640960.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7FCD8DD197ADE7B002CA99C /* splash640960.jpg */; };
+		C7FCD8E0197ADE7B002CA99C /* splash6401136.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7FCD8DE197ADE7B002CA99C /* splash6401136.jpg */; };
+		C7FCD8EB197AE32D002CA99C /* splash640960 new.png in Resources */ = {isa = PBXBuildFile; fileRef = C7FCD8E9197AE32D002CA99C /* splash640960 new.png */; };
+		C7FCD8EC197AE32D002CA99C /* splash6401136 new.png in Resources */ = {isa = PBXBuildFile; fileRef = C7FCD8EA197AE32D002CA99C /* splash6401136 new.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7EF3AFE1901A730007F1F1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7EF3ACD1901A730007F1F1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7EF3AD41901A730007F1F1C;
+			remoteInfo = "Texas Lyceum";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2356E4FF194E7634009BE67A /* McAllen Logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "McAllen Logo.jpg"; sourceTree = "<group>"; };
+		2356E500194E7634009BE67A /* South-Padre-Island-logo1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "South-Padre-Island-logo1.jpg"; sourceTree = "<group>"; };
+		2356E503194E7676009BE67A /* edinburg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = edinburg.jpg; sourceTree = "<group>"; };
+		2356E505194E7EDF009BE67A /* cityofedinburg-logo-final.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cityofedinburg-logo-final.jpg"; sourceTree = "<group>"; };
+		6A678BC51951E16B0003B1C0 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		6A678BC91951E2420003B1C0 /* emailIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emailIcon.png; sourceTree = "<group>"; };
+		C70623341909FB8400FC47F4 /* RGVimg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = RGVimg.jpg; path = "Texas Lyceum/RGVimg.jpg"; sourceTree = "<group>"; };
+		C7062336190A035B00FC47F4 /* TexasLyceum logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "TexasLyceum logo.jpg"; path = "Texas Lyceum/TexasLyceum logo.jpg"; sourceTree = "<group>"; };
+		C71879FA19522C7D007950EF /* dr king screen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dr king screen.jpg"; sourceTree = "<group>"; };
+		C73D195B198714C400F532B3 /* Sponsors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sponsors.h; sourceTree = "<group>"; };
+		C73D195C198714C400F532B3 /* Sponsors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sponsors.m; sourceTree = "<group>"; };
+		C73FE66919574B6300F4C967 /* babysitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = babysitter.png; path = "Texas Lyceum/babysitter.png"; sourceTree = "<group>"; };
+		C73FE66C1957521E00F4C967 /* MissionChamberOfCommerce2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MissionChamberOfCommerce2.png; path = "Texas Lyceum/MissionChamberOfCommerce2.png"; sourceTree = "<group>"; };
+		C73FE66D1957521E00F4C967 /* pharr-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pharr-logo.png"; path = "Texas Lyceum/pharr-logo.png"; sourceTree = "<group>"; };
+		C73FE6701957867A00F4C967 /* care-logo-tagline-transp-265.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "care-logo-tagline-transp-265.png"; path = "Texas Lyceum/care-logo-tagline-transp-265.png"; sourceTree = "<group>"; };
+		C73FE6711957867A00F4C967 /* sitterCity.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sitterCity.jpg; path = "Texas Lyceum/sitterCity.jpg"; sourceTree = "<group>"; };
+		C73FE6741957D2E500F4C967 /* arrow-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "arrow-left.png"; path = "Texas Lyceum/arrow-left.png"; sourceTree = "<group>"; };
+		C73FE6751957D2E500F4C967 /* arrow-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "arrow-right.png"; path = "Texas Lyceum/arrow-right.png"; sourceTree = "<group>"; };
+		C73FE6761957D2E500F4C967 /* check-false.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "check-false.png"; path = "Texas Lyceum/check-false.png"; sourceTree = "<group>"; };
+		C73FE6771957D2E500F4C967 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home.png; path = "Texas Lyceum/home.png"; sourceTree = "<group>"; };
+		C73FE6781957D2E500F4C967 /* resend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = resend.png; path = "Texas Lyceum/resend.png"; sourceTree = "<group>"; };
+		C73FE67E19587DAB00F4C967 /* planning-icon-large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "planning-icon-large.png"; path = "Texas Lyceum/planning-icon-large.png"; sourceTree = "<group>"; };
+		C7525C65195E0233004DFE93 /* Texas Lyceum Logo New.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Texas Lyceum Logo New.jpg"; path = "Texas Lyceum/Texas Lyceum Logo New.jpg"; sourceTree = "<group>"; };
+		C7525C671960EF67004DFE93 /* facebook-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "facebook-icon.png"; path = "Texas Lyceum/facebook-icon.png"; sourceTree = "<group>"; };
+		C7525C681960EF67004DFE93 /* twitter-logo-icon-by-jon-bennallick-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "twitter-logo-icon-by-jon-bennallick-02.png"; path = "Texas Lyceum/twitter-logo-icon-by-jon-bennallick-02.png"; sourceTree = "<group>"; };
+		C7534ABC198F13930037C5E5 /* SpeakerBios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeakerBios.h; sourceTree = "<group>"; };
+		C7534ABD198F13930037C5E5 /* SpeakerBios.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeakerBios.m; sourceTree = "<group>"; };
+		C76156FE195112FB00C5132D /* MunecaRanch.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MunecaRanch.JPG; sourceTree = "<group>"; };
+		C7797A1719DF658000A6D9EF /* Big Tex Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Big Tex Logo.png"; sourceTree = "<group>"; };
+		C7797A1819DF658000A6D9EF /* Visit Dallas Logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Visit Dallas Logo.jpg"; sourceTree = "<group>"; };
+		C7797A1B19E0ACCD00A6D9EF /* Hensarling, Jeb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Hensarling, Jeb.jpg"; path = "Speaker Pictures/Hensarling, Jeb.jpg"; sourceTree = SOURCE_ROOT; };
+		C7831BE419D86D21006384A9 /* texasLyceumIcon1024px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = texasLyceumIcon1024px.png; sourceTree = "<group>"; };
+		C7831BE519D86D21006384A9 /* texasLyceumIcon120px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = texasLyceumIcon120px.png; sourceTree = "<group>"; };
+		C7831BE619D86D21006384A9 /* texasLyceumIcon58px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = texasLyceumIcon58px.png; sourceTree = "<group>"; };
+		C7831BE719D86D21006384A9 /* texasLyceumIcon60px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = texasLyceumIcon60px.png; sourceTree = "<group>"; };
+		C7831BE819D86D21006384A9 /* texasLyceumIcon80px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = texasLyceumIcon80px.png; sourceTree = "<group>"; };
+		C7831BEF19D86D3E006384A9 /* about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about.png; sourceTree = "<group>"; };
+		C7831BF019D86D3E006384A9 /* briefcase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = briefcase.png; sourceTree = "<group>"; };
+		C7831BF119D86D3E006384A9 /* contact Icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "contact Icon.jpg"; sourceTree = "<group>"; };
+		C7831BF219D86D3E006384A9 /* contact Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "contact Icon.png"; sourceTree = "<group>"; };
+		C7831BF319D86D3E006384A9 /* contactIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contactIcon.png; sourceTree = "<group>"; };
+		C7831BF419D86D3E006384A9 /* globe@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "globe@2x.png"; sourceTree = "<group>"; };
+		C7831BF519D86D3E006384A9 /* globeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = globeIcon.png; sourceTree = "<group>"; };
+		C7831BF619D86D3E006384A9 /* house@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "house@2x.png"; sourceTree = "<group>"; };
+		C7831BF719D86D3E006384A9 /* man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = man.png; sourceTree = "<group>"; };
+		C7831BF819D86D3E006384A9 /* speaker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = speaker.png; sourceTree = "<group>"; };
+		C7831BF919D86D3E006384A9 /* SpeakerTabBar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SpeakerTabBar.jpg; sourceTree = "<group>"; };
+		C7831C0619D86D49006384A9 /* arrowItem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowItem.png; sourceTree = "<group>"; };
+		C7831C0719D86D49006384A9 /* schedule.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = schedule.png; sourceTree = "<group>"; };
+		C7831C0819D86D49006384A9 /* schedule2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = schedule2.png; sourceTree = "<group>"; };
+		C7831C0919D86D49006384A9 /* schedule3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = schedule3.png; sourceTree = "<group>"; };
+		C7831C0A19D86D49006384A9 /* scheduleGrayPart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scheduleGrayPart.png; sourceTree = "<group>"; };
+		C7831C0B19D86D49006384A9 /* scheduleItem1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scheduleItem1.png; sourceTree = "<group>"; };
+		C7831C0C19D86D49006384A9 /* scheduleItem2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scheduleItem2.png; sourceTree = "<group>"; };
+		C7831C0D19D86D49006384A9 /* scheduleItem3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scheduleItem3.png; sourceTree = "<group>"; };
+		C7831C0E19D86D49006384A9 /* scheduleNew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scheduleNew.png; sourceTree = "<group>"; };
+		C7831C0F19D86D49006384A9 /* scheduleNewImproved.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scheduleNewImproved.png; sourceTree = "<group>"; };
+		C7831C1019D86D49006384A9 /* scheduleNewImproved1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scheduleNewImproved1.png; sourceTree = "<group>"; };
+		C7831C1119D86D49006384A9 /* scheduleWhitePart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scheduleWhitePart.png; sourceTree = "<group>"; };
+		C787BA7E1943DA6C00639A59 /* MapPin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPin.h; sourceTree = "<group>"; };
+		C787BA7F1943DA6C00639A59 /* MapPin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPin.m; sourceTree = "<group>"; };
+		C789D63A1943AD3900C945CA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C792D19D191B19BB0021C82C /* About.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = About.png; path = "Texas Lyceum/About.png"; sourceTree = "<group>"; };
+		C792D19E191B19BB0021C82C /* Speaker.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Speaker.jpg; path = "Texas Lyceum/Speaker.jpg"; sourceTree = "<group>"; };
+		C795C24A1946285300F07B8D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C799DA4E1918A064002E2F60 /* Me Morp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Me Morp.jpg"; sourceTree = "<group>"; };
+		C799DA541918A3D1002E2F60 /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar.png; sourceTree = "<group>"; };
+		C799DA591919D73F002E2F60 /* SessionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionViewController.h; sourceTree = "<group>"; };
+		C799DA5A1919D73F002E2F60 /* SessionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionViewController.m; sourceTree = "<group>"; };
+		C799DAA0191AF737002E2F60 /* FifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifthViewController.h; sourceTree = "<group>"; };
+		C799DAA1191AF737002E2F60 /* FifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifthViewController.m; sourceTree = "<group>"; };
+		C799DAA3191AF9DF002E2F60 /* TableViewCellMore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCellMore.h; sourceTree = "<group>"; };
+		C799DAA4191AF9DF002E2F60 /* TableViewCellMore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCellMore.m; sourceTree = "<group>"; };
+		C79ECF38197C9B720021975D /* texasLyceumIcon29px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = texasLyceumIcon29px.png; path = "Texas Lyceum/texasLyceumIcon29px.png"; sourceTree = "<group>"; };
+		C79ECF39197C9B720021975D /* texasLyceumIcon40px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = texasLyceumIcon40px.png; path = "Texas Lyceum/texasLyceumIcon40px.png"; sourceTree = "<group>"; };
+		C79ECF3A197C9B720021975D /* texasLyceumIcon60px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = texasLyceumIcon60px.png; path = "Texas Lyceum/texasLyceumIcon60px.png"; sourceTree = "<group>"; };
+		C7A40442192C562B00D4568C /* jearlogo7Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jearlogo7Small.png; sourceTree = "<group>"; };
+		C7A40444192D3FB000D4568C /* Mcallen.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Mcallen.gif; sourceTree = "<group>"; };
+		C7D15B9C193F9EC90065B56C /* Jim Darling.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Jim Darling.jpg"; path = "Texas Lyceum/Jim Darling.jpg"; sourceTree = "<group>"; };
+		C7D15B9E193FA2820065B56C /* About.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = About.h; sourceTree = "<group>"; };
+		C7D15B9F193FA2820065B56C /* About.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = About.m; sourceTree = "<group>"; };
+		C7DB18D719DCEFAB00320B36 /* Amato, Charlie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Amato, Charlie.png"; path = "Speaker Pictures/Amato, Charlie.png"; sourceTree = SOURCE_ROOT; };
+		C7DB18D819DCEFAB00320B36 /* Austin, Jeff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Austin, Jeff.png"; path = "Speaker Pictures/Austin, Jeff.png"; sourceTree = SOURCE_ROOT; };
+		C7DB18D919DCEFAB00320B36 /* Carlson, Neal 2014.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Carlson, Neal 2014.jpeg"; path = "Speaker Pictures/Carlson, Neal 2014.jpeg"; sourceTree = SOURCE_ROOT; };
+		C7DB18DA19DCEFAB00320B36 /* Davis, Ron.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Davis, Ron.jpeg"; path = "Speaker Pictures/Davis, Ron.jpeg"; sourceTree = SOURCE_ROOT; };
+		C7DB18DB19DCEFAB00320B36 /* Dippel, Skipper 2014.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Dippel, Skipper 2014.jpeg"; path = "Speaker Pictures/Dippel, Skipper 2014.jpeg"; sourceTree = SOURCE_ROOT; };
+		C7DB18DD19DCEFAB00320B36 /* Evans, Dick.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Evans, Dick.jpeg"; path = "Speaker Pictures/Evans, Dick.jpeg"; sourceTree = SOURCE_ROOT; };
+		C7DB18DF19DCEFAB00320B36 /* Hoenig, Thomas.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Hoenig, Thomas.jpeg"; path = "Speaker Pictures/Hoenig, Thomas.jpeg"; sourceTree = SOURCE_ROOT; };
+		C7DB18E019DCEFAB00320B36 /* Johnson, Renard 2014.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Johnson, Renard 2014.jpg"; path = "Speaker Pictures/Johnson, Renard 2014.jpg"; sourceTree = SOURCE_ROOT; };
+		C7DB18E219DCEFAB00320B36 /* Paton, Len.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Paton, Len.jpeg"; path = "Speaker Pictures/Paton, Len.jpeg"; sourceTree = SOURCE_ROOT; };
+		C7DB18E319DCEFAB00320B36 /* Romano, Phil.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Romano, Phil.jpeg"; path = "Speaker Pictures/Romano, Phil.jpeg"; sourceTree = SOURCE_ROOT; };
+		C7DB18E419DCEFAB00320B36 /* Stamets, Ben.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Stamets, Ben.jpeg"; path = "Speaker Pictures/Stamets, Ben.jpeg"; sourceTree = SOURCE_ROOT; };
+		C7DB18E519DCEFAB00320B36 /* Urrabazo, Ignacio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Urrabazo, Ignacio.jpg"; path = "Speaker Pictures/Urrabazo, Ignacio.jpg"; sourceTree = SOURCE_ROOT; };
+		C7DB18E619DCEFAB00320B36 /* Veasey, Marc 2014.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Veasey, Marc 2014.jpeg"; path = "Speaker Pictures/Veasey, Marc 2014.jpeg"; sourceTree = SOURCE_ROOT; };
+		C7DB18E719DCEFAB00320B36 /* Ware, Richard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Ware, Richard.png"; path = "Speaker Pictures/Ware, Richard.png"; sourceTree = SOURCE_ROOT; };
+		C7DB18E819DCEFAB00320B36 /* White, Alan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "White, Alan.png"; path = "Speaker Pictures/White, Alan.png"; sourceTree = SOURCE_ROOT; };
+		C7DB18E919DCEFAB00320B36 /* Williston, Chris.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Williston, Chris.jpeg"; path = "Speaker Pictures/Williston, Chris.jpeg"; sourceTree = SOURCE_ROOT; };
+		C7DB18FD19DCF03800320B36 /* Okada, Mark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Okada, Mark.jpg"; path = "Speaker Pictures/Okada, Mark.jpg"; sourceTree = SOURCE_ROOT; };
+		C7DB18FE19DCF03800320B36 /* Rosenblum, Harvey.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Rosenblum, Harvey.jpeg"; path = "Speaker Pictures/Rosenblum, Harvey.jpeg"; sourceTree = SOURCE_ROOT; };
+		C7DB18FF19DCF03800320B36 /* Smith, Evan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Smith, Evan.png"; path = "Speaker Pictures/Smith, Evan.png"; sourceTree = SOURCE_ROOT; };
+		C7DB190319DE25E100320B36 /* Dippel, Tee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Dippel, Tee.jpg"; path = "Speaker Pictures/Dippel, Tee.jpg"; sourceTree = SOURCE_ROOT; };
+		C7DB190419DE25E100320B36 /* Jones, Kat-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Jones, Kat-2.jpg"; path = "Speaker Pictures/Jones, Kat-2.jpg"; sourceTree = SOURCE_ROOT; };
+		C7DB190519DE25E100320B36 /* Lyle, Sharon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Lyle, Sharon.jpg"; path = "Speaker Pictures/Lyle, Sharon.jpg"; sourceTree = SOURCE_ROOT; };
+		C7DB190619DE25E100320B36 /* Magrane, Cara.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Magrane, Cara.jpg"; path = "Speaker Pictures/Magrane, Cara.jpg"; sourceTree = SOURCE_ROOT; };
+		C7DB190719DE25E100320B36 /* Pittard, Kirk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Pittard, Kirk.jpg"; path = "Speaker Pictures/Pittard, Kirk.jpg"; sourceTree = SOURCE_ROOT; };
+		C7DB190819DE25E100320B36 /* Plunkett, Mark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Plunkett, Mark.jpg"; path = "Speaker Pictures/Plunkett, Mark.jpg"; sourceTree = SOURCE_ROOT; };
+		C7DB190919DE25E100320B36 /* Reed, Holly.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Reed, Holly.jpg"; path = "Speaker Pictures/Reed, Holly.jpg"; sourceTree = SOURCE_ROOT; };
+		C7DB190A19DE25E100320B36 /* Seaman, Aaron.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Seaman, Aaron.jpg"; path = "Speaker Pictures/Seaman, Aaron.jpg"; sourceTree = SOURCE_ROOT; };
+		C7DB190B19DE25E100320B36 /* Urbanek, Frank 2012.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Urbanek, Frank 2012.JPG"; path = "Speaker Pictures/Urbanek, Frank 2012.JPG"; sourceTree = SOURCE_ROOT; };
+		C7DB190C19DE25E100320B36 /* Ware, William.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Ware, William.jpg"; path = "Speaker Pictures/Ware, William.jpg"; sourceTree = SOURCE_ROOT; };
+		C7E4CA7319786A0B0070D26C /* NSDateFormatter+STTwitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+STTwitter.h"; sourceTree = "<group>"; };
+		C7E4CA7419786A0B0070D26C /* NSDateFormatter+STTwitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+STTwitter.m"; sourceTree = "<group>"; };
+		C7E4CA7519786A0B0070D26C /* NSError+STTwitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+STTwitter.h"; sourceTree = "<group>"; };
+		C7E4CA7619786A0B0070D26C /* NSError+STTwitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+STTwitter.m"; sourceTree = "<group>"; };
+		C7E4CA7719786A0B0070D26C /* NSString+STTwitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+STTwitter.h"; sourceTree = "<group>"; };
+		C7E4CA7819786A0B0070D26C /* NSString+STTwitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+STTwitter.m"; sourceTree = "<group>"; };
+		C7E4CA7919786A0B0070D26C /* STHTTPRequest+STTwitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STHTTPRequest+STTwitter.h"; sourceTree = "<group>"; };
+		C7E4CA7A19786A0B0070D26C /* STHTTPRequest+STTwitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STHTTPRequest+STTwitter.m"; sourceTree = "<group>"; };
+		C7E4CA7B19786A0B0070D26C /* STTwitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTwitter.h; sourceTree = "<group>"; };
+		C7E4CA7C19786A0B0070D26C /* STTwitterAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTwitterAPI.h; sourceTree = "<group>"; };
+		C7E4CA7D19786A0B0070D26C /* STTwitterAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTwitterAPI.m; sourceTree = "<group>"; };
+		C7E4CA7E19786A0B0070D26C /* STTwitterAppOnly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTwitterAppOnly.h; sourceTree = "<group>"; };
+		C7E4CA7F19786A0B0070D26C /* STTwitterAppOnly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTwitterAppOnly.m; sourceTree = "<group>"; };
+		C7E4CA8019786A0B0070D26C /* STTwitterHTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTwitterHTML.h; sourceTree = "<group>"; };
+		C7E4CA8119786A0B0070D26C /* STTwitterHTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTwitterHTML.m; sourceTree = "<group>"; };
+		C7E4CA8219786A0B0070D26C /* STTwitterOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTwitterOAuth.h; sourceTree = "<group>"; };
+		C7E4CA8319786A0B0070D26C /* STTwitterOAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTwitterOAuth.m; sourceTree = "<group>"; };
+		C7E4CA8419786A0B0070D26C /* STTwitterOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTwitterOS.h; sourceTree = "<group>"; };
+		C7E4CA8519786A0B0070D26C /* STTwitterOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTwitterOS.m; sourceTree = "<group>"; };
+		C7E4CA8619786A0B0070D26C /* STTwitterOSRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTwitterOSRequest.h; sourceTree = "<group>"; };
+		C7E4CA8719786A0B0070D26C /* STTwitterOSRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTwitterOSRequest.m; sourceTree = "<group>"; };
+		C7E4CA8819786A0B0070D26C /* STTwitterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTwitterProtocol.h; sourceTree = "<group>"; };
+		C7E4CA8A19786A0B0070D26C /* BAVPlistNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAVPlistNode.h; sourceTree = "<group>"; };
+		C7E4CA8B19786A0B0070D26C /* BAVPlistNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAVPlistNode.m; sourceTree = "<group>"; };
+		C7E4CA8C19786A0B0070D26C /* JSONSyntaxHighlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONSyntaxHighlight.h; sourceTree = "<group>"; };
+		C7E4CA8D19786A0B0070D26C /* JSONSyntaxHighlight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONSyntaxHighlight.m; sourceTree = "<group>"; };
+		C7E4CA8E19786A0B0070D26C /* STHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STHTTPRequest.h; sourceTree = "<group>"; };
+		C7E4CA8F19786A0B0070D26C /* STHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STHTTPRequest.m; sourceTree = "<group>"; };
+		C7E4CA9D19786A340070D26C /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		C7EEFA7019743D1F002B7B1C /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		C7EEFA7219743D2A002B7B1C /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		C7EF3AD51901A730007F1F1C /* Texas Lyceum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Texas Lyceum.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7EF3AD81901A730007F1F1C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C7EF3ADA1901A730007F1F1C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C7EF3ADC1901A730007F1F1C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C7EF3AE01901A730007F1F1C /* Texas Lyceum-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Texas Lyceum-Info.plist"; sourceTree = "<group>"; };
+		C7EF3AE21901A730007F1F1C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C7EF3AE41901A730007F1F1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C7EF3AE61901A730007F1F1C /* Texas Lyceum-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Texas Lyceum-Prefix.pch"; sourceTree = "<group>"; };
+		C7EF3AE71901A730007F1F1C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C7EF3AE81901A730007F1F1C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C7EF3AEB1901A730007F1F1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7EF3AED1901A730007F1F1C /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		C7EF3AEE1901A730007F1F1C /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		C7EF3AF01901A730007F1F1C /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		C7EF3AF11901A730007F1F1C /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		C7EF3AF31901A730007F1F1C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C7EF3AF91901A730007F1F1C /* Texas LyceumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Texas LyceumTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7EF3AFA1901A730007F1F1C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C7EF3B021901A730007F1F1C /* Texas LyceumTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Texas LyceumTests-Info.plist"; sourceTree = "<group>"; };
+		C7EF3B041901A730007F1F1C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C7EF3B061901A730007F1F1C /* Texas_LyceumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Texas_LyceumTests.m; sourceTree = "<group>"; };
+		C7EF3B101901AAFC007F1F1C /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		C7EF3B111901AAFC007F1F1C /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		C7EF3B131901AC87007F1F1C /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		C7EF3B141901AC87007F1F1C /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		C7F539BD19D859DC00663B3C /* Texas Lyceum Flyer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Texas Lyceum Flyer.png"; sourceTree = "<group>"; };
+		C7FCD8CE1979BDFF002CA99C /* Texas Lyceum Logo New TableView.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Texas Lyceum Logo New TableView.jpg"; path = "../../Texas Lyceum/Texas Lyceum/Texas Lyceum Logo New TableView.jpg"; sourceTree = "<group>"; };
+		C7FCD8D01979C0B5002CA99C /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		C7FCD8D11979C0B5002CA99C /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		C7FCD8DB197A23B7002CA99C /* mailIcon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mailIcon.jpg; sourceTree = "<group>"; };
+		C7FCD8DD197ADE7B002CA99C /* splash640960.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = splash640960.jpg; sourceTree = "<group>"; };
+		C7FCD8DE197ADE7B002CA99C /* splash6401136.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = splash6401136.jpg; sourceTree = "<group>"; };
+		C7FCD8E9197AE32D002CA99C /* splash640960 new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "splash640960 new.png"; path = "../../Texas Lyceum/splash640960 new.png"; sourceTree = "<group>"; };
+		C7FCD8EA197AE32D002CA99C /* splash6401136 new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "splash6401136 new.png"; path = "../../Texas Lyceum/splash6401136 new.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7EF3AD21901A730007F1F1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7EEFA7119743D1F002B7B1C /* Accounts.framework in Frameworks */,
+				C7E4CA9E19786A340070D26C /* Twitter.framework in Frameworks */,
+				C7EEFA7319743D2A002B7B1C /* Social.framework in Frameworks */,
+				6A678BC61951E16B0003B1C0 /* MessageUI.framework in Frameworks */,
+				C795C24B1946285300F07B8D /* CoreLocation.framework in Frameworks */,
+				C789D63B1943AD3900C945CA /* MapKit.framework in Frameworks */,
+				C7EF3ADB1901A730007F1F1C /* CoreGraphics.framework in Frameworks */,
+				C7EF3ADD1901A730007F1F1C /* UIKit.framework in Frameworks */,
+				C7EF3AD91901A730007F1F1C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7EF3AF61901A730007F1F1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7EF3AFB1901A730007F1F1C /* XCTest.framework in Frameworks */,
+				C7EF3AFD1901A730007F1F1C /* UIKit.framework in Frameworks */,
+				C7EF3AFC1901A730007F1F1C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C73FE66B19574B6B00F4C967 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C7797A1719DF658000A6D9EF /* Big Tex Logo.png */,
+				C7797A1819DF658000A6D9EF /* Visit Dallas Logo.jpg */,
+				C7831C0519D86D49006384A9 /* Schedule Item Images */,
+				C7831BEE19D86D3E006384A9 /* Tab Icons */,
+				C7831BE319D86D21006384A9 /* Application Icons */,
+				C7F539BD19D859DC00663B3C /* Texas Lyceum Flyer.png */,
+				C79ECF38197C9B720021975D /* texasLyceumIcon29px.png */,
+				C79ECF39197C9B720021975D /* texasLyceumIcon40px.png */,
+				C79ECF3A197C9B720021975D /* texasLyceumIcon60px.png */,
+				C7A52CD7198C5678003A1F00 /* Speakers */,
+				C7FCD8E9197AE32D002CA99C /* splash640960 new.png */,
+				C7FCD8EA197AE32D002CA99C /* splash6401136 new.png */,
+				C7FCD8DD197ADE7B002CA99C /* splash640960.jpg */,
+				C7FCD8DE197ADE7B002CA99C /* splash6401136.jpg */,
+				C7FCD8DB197A23B7002CA99C /* mailIcon.jpg */,
+				C7FCD8CE1979BDFF002CA99C /* Texas Lyceum Logo New TableView.jpg */,
+				C7525C671960EF67004DFE93 /* facebook-icon.png */,
+				C7525C681960EF67004DFE93 /* twitter-logo-icon-by-jon-bennallick-02.png */,
+				C7525C65195E0233004DFE93 /* Texas Lyceum Logo New.jpg */,
+				C73FE67E19587DAB00F4C967 /* planning-icon-large.png */,
+				C73FE6741957D2E500F4C967 /* arrow-left.png */,
+				C73FE6751957D2E500F4C967 /* arrow-right.png */,
+				C73FE6761957D2E500F4C967 /* check-false.png */,
+				C73FE6771957D2E500F4C967 /* home.png */,
+				C73FE6781957D2E500F4C967 /* resend.png */,
+				C73FE6701957867A00F4C967 /* care-logo-tagline-transp-265.png */,
+				C73FE6711957867A00F4C967 /* sitterCity.jpg */,
+				C73FE66C1957521E00F4C967 /* MissionChamberOfCommerce2.png */,
+				C73FE66D1957521E00F4C967 /* pharr-logo.png */,
+				C73FE66919574B6300F4C967 /* babysitter.png */,
+				C71879FA19522C7D007950EF /* dr king screen.jpg */,
+				6A678BC91951E2420003B1C0 /* emailIcon.png */,
+				C76156FE195112FB00C5132D /* MunecaRanch.JPG */,
+				2356E505194E7EDF009BE67A /* cityofedinburg-logo-final.jpg */,
+				2356E503194E7676009BE67A /* edinburg.jpg */,
+				2356E4FF194E7634009BE67A /* McAllen Logo.jpg */,
+				2356E500194E7634009BE67A /* South-Padre-Island-logo1.jpg */,
+				C7D15B9C193F9EC90065B56C /* Jim Darling.jpg */,
+				C7A40444192D3FB000D4568C /* Mcallen.gif */,
+				C7A40442192C562B00D4568C /* jearlogo7Small.png */,
+				C792D19D191B19BB0021C82C /* About.png */,
+				C792D19E191B19BB0021C82C /* Speaker.jpg */,
+				C799DA541918A3D1002E2F60 /* calendar.png */,
+				C799DA4E1918A064002E2F60 /* Me Morp.jpg */,
+				C7062336190A035B00FC47F4 /* TexasLyceum logo.jpg */,
+				C70623341909FB8400FC47F4 /* RGVimg.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		C7831BE319D86D21006384A9 /* Application Icons */ = {
+			isa = PBXGroup;
+			children = (
+				C7831BE419D86D21006384A9 /* texasLyceumIcon1024px.png */,
+				C7831BE519D86D21006384A9 /* texasLyceumIcon120px.png */,
+				C7831BE619D86D21006384A9 /* texasLyceumIcon58px.png */,
+				C7831BE719D86D21006384A9 /* texasLyceumIcon60px.png */,
+				C7831BE819D86D21006384A9 /* texasLyceumIcon80px.png */,
+			);
+			path = "Application Icons";
+			sourceTree = "<group>";
+		};
+		C7831BEE19D86D3E006384A9 /* Tab Icons */ = {
+			isa = PBXGroup;
+			children = (
+				C7831BEF19D86D3E006384A9 /* about.png */,
+				C7831BF019D86D3E006384A9 /* briefcase.png */,
+				C7831BF119D86D3E006384A9 /* contact Icon.jpg */,
+				C7831BF219D86D3E006384A9 /* contact Icon.png */,
+				C7831BF319D86D3E006384A9 /* contactIcon.png */,
+				C7831BF419D86D3E006384A9 /* globe@2x.png */,
+				C7831BF519D86D3E006384A9 /* globeIcon.png */,
+				C7831BF619D86D3E006384A9 /* house@2x.png */,
+				C7831BF719D86D3E006384A9 /* man.png */,
+				C7831BF819D86D3E006384A9 /* speaker.png */,
+				C7831BF919D86D3E006384A9 /* SpeakerTabBar.jpg */,
+			);
+			path = "Tab Icons";
+			sourceTree = "<group>";
+		};
+		C7831C0519D86D49006384A9 /* Schedule Item Images */ = {
+			isa = PBXGroup;
+			children = (
+				C7831C0619D86D49006384A9 /* arrowItem.png */,
+				C7831C0719D86D49006384A9 /* schedule.png */,
+				C7831C0819D86D49006384A9 /* schedule2.png */,
+				C7831C0919D86D49006384A9 /* schedule3.png */,
+				C7831C0A19D86D49006384A9 /* scheduleGrayPart.png */,
+				C7831C0B19D86D49006384A9 /* scheduleItem1.png */,
+				C7831C0C19D86D49006384A9 /* scheduleItem2.png */,
+				C7831C0D19D86D49006384A9 /* scheduleItem3.png */,
+				C7831C0E19D86D49006384A9 /* scheduleNew.png */,
+				C7831C0F19D86D49006384A9 /* scheduleNewImproved.png */,
+				C7831C1019D86D49006384A9 /* scheduleNewImproved1.png */,
+				C7831C1119D86D49006384A9 /* scheduleWhitePart.png */,
+			);
+			path = "Schedule Item Images";
+			sourceTree = "<group>";
+		};
+		C7A52CD7198C5678003A1F00 /* Speakers */ = {
+			isa = PBXGroup;
+			children = (
+				C7797A1B19E0ACCD00A6D9EF /* Hensarling, Jeb.jpg */,
+				C7DB190319DE25E100320B36 /* Dippel, Tee.jpg */,
+				C7DB190419DE25E100320B36 /* Jones, Kat-2.jpg */,
+				C7DB190519DE25E100320B36 /* Lyle, Sharon.jpg */,
+				C7DB190619DE25E100320B36 /* Magrane, Cara.jpg */,
+				C7DB190719DE25E100320B36 /* Pittard, Kirk.jpg */,
+				C7DB190819DE25E100320B36 /* Plunkett, Mark.jpg */,
+				C7DB190919DE25E100320B36 /* Reed, Holly.jpg */,
+				C7DB190A19DE25E100320B36 /* Seaman, Aaron.jpg */,
+				C7DB190B19DE25E100320B36 /* Urbanek, Frank 2012.JPG */,
+				C7DB190C19DE25E100320B36 /* Ware, William.jpg */,
+				C7DB18FD19DCF03800320B36 /* Okada, Mark.jpg */,
+				C7DB18FE19DCF03800320B36 /* Rosenblum, Harvey.jpeg */,
+				C7DB18FF19DCF03800320B36 /* Smith, Evan.png */,
+				C7DB18D719DCEFAB00320B36 /* Amato, Charlie.png */,
+				C7DB18D819DCEFAB00320B36 /* Austin, Jeff.png */,
+				C7DB18D919DCEFAB00320B36 /* Carlson, Neal 2014.jpeg */,
+				C7DB18DA19DCEFAB00320B36 /* Davis, Ron.jpeg */,
+				C7DB18DB19DCEFAB00320B36 /* Dippel, Skipper 2014.jpeg */,
+				C7DB18DD19DCEFAB00320B36 /* Evans, Dick.jpeg */,
+				C7DB18DF19DCEFAB00320B36 /* Hoenig, Thomas.jpeg */,
+				C7DB18E019DCEFAB00320B36 /* Johnson, Renard 2014.jpg */,
+				C7DB18E219DCEFAB00320B36 /* Paton, Len.jpeg */,
+				C7DB18E319DCEFAB00320B36 /* Romano, Phil.jpeg */,
+				C7DB18E419DCEFAB00320B36 /* Stamets, Ben.jpeg */,
+				C7DB18E519DCEFAB00320B36 /* Urrabazo, Ignacio.jpg */,
+				C7DB18E619DCEFAB00320B36 /* Veasey, Marc 2014.jpeg */,
+				C7DB18E719DCEFAB00320B36 /* Ware, Richard.png */,
+				C7DB18E819DCEFAB00320B36 /* White, Alan.png */,
+				C7DB18E919DCEFAB00320B36 /* Williston, Chris.jpeg */,
+			);
+			path = Speakers;
+			sourceTree = "<group>";
+		};
+		C7E4CA7219786A0B0070D26C /* STTwitter */ = {
+			isa = PBXGroup;
+			children = (
+				C7E4CA7319786A0B0070D26C /* NSDateFormatter+STTwitter.h */,
+				C7E4CA7419786A0B0070D26C /* NSDateFormatter+STTwitter.m */,
+				C7E4CA7519786A0B0070D26C /* NSError+STTwitter.h */,
+				C7E4CA7619786A0B0070D26C /* NSError+STTwitter.m */,
+				C7E4CA7719786A0B0070D26C /* NSString+STTwitter.h */,
+				C7E4CA7819786A0B0070D26C /* NSString+STTwitter.m */,
+				C7E4CA7919786A0B0070D26C /* STHTTPRequest+STTwitter.h */,
+				C7E4CA7A19786A0B0070D26C /* STHTTPRequest+STTwitter.m */,
+				C7E4CA7B19786A0B0070D26C /* STTwitter.h */,
+				C7E4CA7C19786A0B0070D26C /* STTwitterAPI.h */,
+				C7E4CA7D19786A0B0070D26C /* STTwitterAPI.m */,
+				C7E4CA7E19786A0B0070D26C /* STTwitterAppOnly.h */,
+				C7E4CA7F19786A0B0070D26C /* STTwitterAppOnly.m */,
+				C7E4CA8019786A0B0070D26C /* STTwitterHTML.h */,
+				C7E4CA8119786A0B0070D26C /* STTwitterHTML.m */,
+				C7E4CA8219786A0B0070D26C /* STTwitterOAuth.h */,
+				C7E4CA8319786A0B0070D26C /* STTwitterOAuth.m */,
+				C7E4CA8419786A0B0070D26C /* STTwitterOS.h */,
+				C7E4CA8519786A0B0070D26C /* STTwitterOS.m */,
+				C7E4CA8619786A0B0070D26C /* STTwitterOSRequest.h */,
+				C7E4CA8719786A0B0070D26C /* STTwitterOSRequest.m */,
+				C7E4CA8819786A0B0070D26C /* STTwitterProtocol.h */,
+				C7E4CA8919786A0B0070D26C /* Vendor */,
+			);
+			path = STTwitter;
+			sourceTree = "<group>";
+		};
+		C7E4CA8919786A0B0070D26C /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				C7E4CA8A19786A0B0070D26C /* BAVPlistNode.h */,
+				C7E4CA8B19786A0B0070D26C /* BAVPlistNode.m */,
+				C7E4CA8C19786A0B0070D26C /* JSONSyntaxHighlight.h */,
+				C7E4CA8D19786A0B0070D26C /* JSONSyntaxHighlight.m */,
+				C7E4CA8E19786A0B0070D26C /* STHTTPRequest.h */,
+				C7E4CA8F19786A0B0070D26C /* STHTTPRequest.m */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		C7EF3ACC1901A730007F1F1C = {
+			isa = PBXGroup;
+			children = (
+				C73FE66B19574B6B00F4C967 /* Images */,
+				C7EF3ADE1901A730007F1F1C /* Texas Lyceum */,
+				C7EF3B001901A730007F1F1C /* Texas LyceumTests */,
+				C7EF3AD71901A730007F1F1C /* Frameworks */,
+				C7EF3AD61901A730007F1F1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7EF3AD61901A730007F1F1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7EF3AD51901A730007F1F1C /* Texas Lyceum.app */,
+				C7EF3AF91901A730007F1F1C /* Texas LyceumTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7EF3AD71901A730007F1F1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7E4CA9D19786A340070D26C /* Twitter.framework */,
+				C7EEFA7219743D2A002B7B1C /* Social.framework */,
+				C7EEFA7019743D1F002B7B1C /* Accounts.framework */,
+				6A678BC51951E16B0003B1C0 /* MessageUI.framework */,
+				C795C24A1946285300F07B8D /* CoreLocation.framework */,
+				C789D63A1943AD3900C945CA /* MapKit.framework */,
+				C7EF3AD81901A730007F1F1C /* Foundation.framework */,
+				C7EF3ADA1901A730007F1F1C /* CoreGraphics.framework */,
+				C7EF3ADC1901A730007F1F1C /* UIKit.framework */,
+				C7EF3AFA1901A730007F1F1C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7EF3ADE1901A730007F1F1C /* Texas Lyceum */ = {
+			isa = PBXGroup;
+			children = (
+				C7E4CA7219786A0B0070D26C /* STTwitter */,
+				C7EF3AE71901A730007F1F1C /* AppDelegate.h */,
+				C7EF3AE81901A730007F1F1C /* AppDelegate.m */,
+				C7EF3AEA1901A730007F1F1C /* Main.storyboard */,
+				C7EF3AED1901A730007F1F1C /* FirstViewController.h */,
+				C7EF3AEE1901A730007F1F1C /* FirstViewController.m */,
+				C7EF3AF01901A730007F1F1C /* SecondViewController.h */,
+				C7EF3AF11901A730007F1F1C /* SecondViewController.m */,
+				C7EF3B101901AAFC007F1F1C /* ThirdViewController.h */,
+				C7EF3B111901AAFC007F1F1C /* ThirdViewController.m */,
+				C7EF3B131901AC87007F1F1C /* FourthViewController.h */,
+				C7EF3B141901AC87007F1F1C /* FourthViewController.m */,
+				C799DAA0191AF737002E2F60 /* FifthViewController.h */,
+				C799DAA1191AF737002E2F60 /* FifthViewController.m */,
+				C799DA591919D73F002E2F60 /* SessionViewController.h */,
+				C799DA5A1919D73F002E2F60 /* SessionViewController.m */,
+				C73D195B198714C400F532B3 /* Sponsors.h */,
+				C73D195C198714C400F532B3 /* Sponsors.m */,
+				C7534ABC198F13930037C5E5 /* SpeakerBios.h */,
+				C7534ABD198F13930037C5E5 /* SpeakerBios.m */,
+				C7D15B9E193FA2820065B56C /* About.h */,
+				C7D15B9F193FA2820065B56C /* About.m */,
+				C7EF3AF31901A730007F1F1C /* Images.xcassets */,
+				C7EF3ADF1901A730007F1F1C /* Supporting Files */,
+				C799DAA3191AF9DF002E2F60 /* TableViewCellMore.h */,
+				C799DAA4191AF9DF002E2F60 /* TableViewCellMore.m */,
+				C787BA7E1943DA6C00639A59 /* MapPin.h */,
+				C787BA7F1943DA6C00639A59 /* MapPin.m */,
+				C7FCD8D01979C0B5002CA99C /* TableViewCell.h */,
+				C7FCD8D11979C0B5002CA99C /* TableViewCell.m */,
+			);
+			path = "Texas Lyceum";
+			sourceTree = "<group>";
+		};
+		C7EF3ADF1901A730007F1F1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7EF3AE01901A730007F1F1C /* Texas Lyceum-Info.plist */,
+				C7EF3AE11901A730007F1F1C /* InfoPlist.strings */,
+				C7EF3AE41901A730007F1F1C /* main.m */,
+				C7EF3AE61901A730007F1F1C /* Texas Lyceum-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C7EF3B001901A730007F1F1C /* Texas LyceumTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7EF3B061901A730007F1F1C /* Texas_LyceumTests.m */,
+				C7EF3B011901A730007F1F1C /* Supporting Files */,
+			);
+			path = "Texas LyceumTests";
+			sourceTree = "<group>";
+		};
+		C7EF3B011901A730007F1F1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7EF3B021901A730007F1F1C /* Texas LyceumTests-Info.plist */,
+				C7EF3B031901A730007F1F1C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7EF3AD41901A730007F1F1C /* Texas Lyceum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7EF3B0A1901A730007F1F1C /* Build configuration list for PBXNativeTarget "Texas Lyceum" */;
+			buildPhases = (
+				C7EF3AD11901A730007F1F1C /* Sources */,
+				C7EF3AD21901A730007F1F1C /* Frameworks */,
+				C7EF3AD31901A730007F1F1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Texas Lyceum";
+			productName = "Texas Lyceum";
+			productReference = C7EF3AD51901A730007F1F1C /* Texas Lyceum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7EF3AF81901A730007F1F1C /* Texas LyceumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7EF3B0D1901A730007F1F1C /* Build configuration list for PBXNativeTarget "Texas LyceumTests" */;
+			buildPhases = (
+				C7EF3AF51901A730007F1F1C /* Sources */,
+				C7EF3AF61901A730007F1F1C /* Frameworks */,
+				C7EF3AF71901A730007F1F1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7EF3AFF1901A730007F1F1C /* PBXTargetDependency */,
+			);
+			name = "Texas LyceumTests";
+			productName = "Texas LyceumTests";
+			productReference = C7EF3AF91901A730007F1F1C /* Texas LyceumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7EF3ACD1901A730007F1F1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Julian Emilio Alvarez Restrepo";
+				TargetAttributes = {
+					C7EF3AD41901A730007F1F1C = {
+						DevelopmentTeam = FHDDD45846;
+					};
+					C7EF3AF81901A730007F1F1C = {
+						TestTargetID = C7EF3AD41901A730007F1F1C;
+					};
+				};
+			};
+			buildConfigurationList = C7EF3AD01901A730007F1F1C /* Build configuration list for PBXProject "Texas Lyceum" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7EF3ACC1901A730007F1F1C;
+			productRefGroup = C7EF3AD61901A730007F1F1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7EF3AD41901A730007F1F1C /* Texas Lyceum */,
+				C7EF3AF81901A730007F1F1C /* Texas LyceumTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7EF3AD31901A730007F1F1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7FCD8DC197A23B7002CA99C /* mailIcon.jpg in Resources */,
+				C70623351909FB8400FC47F4 /* RGVimg.jpg in Resources */,
+				C7F539BE19D859DC00663B3C /* Texas Lyceum Flyer.png in Resources */,
+				C7FCD8E0197ADE7B002CA99C /* splash6401136.jpg in Resources */,
+				C73FE66A19574B6300F4C967 /* babysitter.png in Resources */,
+				C7FCD8EC197AE32D002CA99C /* splash6401136 new.png in Resources */,
+				C7DB18F919DCEFAB00320B36 /* Veasey, Marc 2014.jpeg in Resources */,
+				C7831C1D19D86D49006384A9 /* scheduleWhitePart.png in Resources */,
+				C7FCD8EB197AE32D002CA99C /* splash640960 new.png in Resources */,
+				C76156FF195112FB00C5132D /* MunecaRanch.JPG in Resources */,
+				C7DB18F219DCEFAB00320B36 /* Hoenig, Thomas.jpeg in Resources */,
+				C7DB191519DE25E100320B36 /* Urbanek, Frank 2012.JPG in Resources */,
+				C7D15B9D193F9EC90065B56C /* Jim Darling.jpg in Resources */,
+				C7831C0019D86D3E006384A9 /* globeIcon.png in Resources */,
+				C7DB18F819DCEFAB00320B36 /* Urrabazo, Ignacio.jpg in Resources */,
+				C7DB191019DE25E100320B36 /* Magrane, Cara.jpg in Resources */,
+				C7DB18EA19DCEFAB00320B36 /* Amato, Charlie.png in Resources */,
+				C7DB18F019DCEFAB00320B36 /* Evans, Dick.jpeg in Resources */,
+				C7525C6A1960EF67004DFE93 /* twitter-logo-icon-by-jon-bennallick-02.png in Resources */,
+				C792D19F191B19BB0021C82C /* About.png in Resources */,
+				C7525C691960EF67004DFE93 /* facebook-icon.png in Resources */,
+				C7DB18EB19DCEFAB00320B36 /* Austin, Jeff.png in Resources */,
+				C7FCD8CF1979BDFF002CA99C /* Texas Lyceum Logo New TableView.jpg in Resources */,
+				C7DB18FC19DCEFAB00320B36 /* Williston, Chris.jpeg in Resources */,
+				C73FE67A1957D2E500F4C967 /* arrow-right.png in Resources */,
+				C73FE66F1957521E00F4C967 /* pharr-logo.png in Resources */,
+				C73FE6731957867A00F4C967 /* sitterCity.jpg in Resources */,
+				C7831C0419D86D3E006384A9 /* SpeakerTabBar.jpg in Resources */,
+				2356E506194E7EDF009BE67A /* cityofedinburg-logo-final.jpg in Resources */,
+				C7FCD8DF197ADE7B002CA99C /* splash640960.jpg in Resources */,
+				C7831C1B19D86D49006384A9 /* scheduleNewImproved.png in Resources */,
+				C7DB18FA19DCEFAB00320B36 /* Ware, Richard.png in Resources */,
+				C73FE67D1957D2E500F4C967 /* resend.png in Resources */,
+				C792D1A0191B19BB0021C82C /* Speaker.jpg in Resources */,
+				C7DB18EC19DCEFAB00320B36 /* Carlson, Neal 2014.jpeg in Resources */,
+				C7DB18F619DCEFAB00320B36 /* Romano, Phil.jpeg in Resources */,
+				C71879FB19522C7D007950EF /* dr king screen.jpg in Resources */,
+				C7525C66195E0233004DFE93 /* Texas Lyceum Logo New.jpg in Resources */,
+				2356E502194E7634009BE67A /* South-Padre-Island-logo1.jpg in Resources */,
+				C7797A1C19E0ACCD00A6D9EF /* Hensarling, Jeb.jpg in Resources */,
+				C7831BEA19D86D21006384A9 /* texasLyceumIcon120px.png in Resources */,
+				C79ECF3C197C9B720021975D /* texasLyceumIcon40px.png in Resources */,
+				6A678BCA1951E2420003B1C0 /* emailIcon.png in Resources */,
+				C7831BEC19D86D21006384A9 /* texasLyceumIcon60px.png in Resources */,
+				C7831C1619D86D49006384A9 /* scheduleGrayPart.png in Resources */,
+				C7EF3AF41901A730007F1F1C /* Images.xcassets in Resources */,
+				C7DB18F519DCEFAB00320B36 /* Paton, Len.jpeg in Resources */,
+				C799DA551918A3D1002E2F60 /* calendar.png in Resources */,
+				C7DB190219DCF03800320B36 /* Smith, Evan.png in Resources */,
+				C7DB191219DE25E100320B36 /* Plunkett, Mark.jpg in Resources */,
+				2356E501194E7634009BE67A /* McAllen Logo.jpg in Resources */,
+				C7DB191619DE25E100320B36 /* Ware, William.jpg in Resources */,
+				C7797A1919DF658000A6D9EF /* Big Tex Logo.png in Resources */,
+				C73FE6791957D2E500F4C967 /* arrow-left.png in Resources */,
+				C7831C1319D86D49006384A9 /* schedule.png in Resources */,
+				C73FE66E1957521E00F4C967 /* MissionChamberOfCommerce2.png in Resources */,
+				C7797A1A19DF658000A6D9EF /* Visit Dallas Logo.jpg in Resources */,
+				C7DB191419DE25E100320B36 /* Seaman, Aaron.jpg in Resources */,
+				C7831BFC19D86D3E006384A9 /* contact Icon.jpg in Resources */,
+				C7DB190119DCF03800320B36 /* Rosenblum, Harvey.jpeg in Resources */,
+				C7831BFD19D86D3E006384A9 /* contact Icon.png in Resources */,
+				C7DB190E19DE25E100320B36 /* Jones, Kat-2.jpg in Resources */,
+				C7EF3AE31901A730007F1F1C /* InfoPlist.strings in Resources */,
+				C7DB190D19DE25E100320B36 /* Dippel, Tee.jpg in Resources */,
+				C73FE67C1957D2E500F4C967 /* home.png in Resources */,
+				C7062337190A035B00FC47F4 /* TexasLyceum logo.jpg in Resources */,
+				C73FE67F19587DAB00F4C967 /* planning-icon-large.png in Resources */,
+				C7831C0219D86D3E006384A9 /* man.png in Resources */,
+				C7831C1C19D86D49006384A9 /* scheduleNewImproved1.png in Resources */,
+				C73FE6721957867A00F4C967 /* care-logo-tagline-transp-265.png in Resources */,
+				C7DB18ED19DCEFAB00320B36 /* Davis, Ron.jpeg in Resources */,
+				C7EF3AEC1901A730007F1F1C /* Main.storyboard in Resources */,
+				2356E504194E7676009BE67A /* edinburg.jpg in Resources */,
+				C7831C1419D86D49006384A9 /* schedule2.png in Resources */,
+				C799DA4F1918A064002E2F60 /* Me Morp.jpg in Resources */,
+				C7A40445192D3FB000D4568C /* Mcallen.gif in Resources */,
+				C7DB191319DE25E100320B36 /* Reed, Holly.jpg in Resources */,
+				C73FE67B1957D2E500F4C967 /* check-false.png in Resources */,
+				C7DB18F319DCEFAB00320B36 /* Johnson, Renard 2014.jpg in Resources */,
+				C7831C0319D86D3E006384A9 /* speaker.png in Resources */,
+				C7831C1919D86D49006384A9 /* scheduleItem3.png in Resources */,
+				C7831C1A19D86D49006384A9 /* scheduleNew.png in Resources */,
+				C7DB190019DCF03800320B36 /* Okada, Mark.jpg in Resources */,
+				C7831BE919D86D21006384A9 /* texasLyceumIcon1024px.png in Resources */,
+				C7831C1519D86D49006384A9 /* schedule3.png in Resources */,
+				C7DB18FB19DCEFAB00320B36 /* White, Alan.png in Resources */,
+				C7DB190F19DE25E100320B36 /* Lyle, Sharon.jpg in Resources */,
+				C7831BED19D86D21006384A9 /* texasLyceumIcon80px.png in Resources */,
+				C7831C1219D86D49006384A9 /* arrowItem.png in Resources */,
+				C7DB18F719DCEFAB00320B36 /* Stamets, Ben.jpeg in Resources */,
+				C7831BFB19D86D3E006384A9 /* briefcase.png in Resources */,
+				C7831C0119D86D3E006384A9 /* house@2x.png in Resources */,
+				C79ECF3B197C9B720021975D /* texasLyceumIcon29px.png in Resources */,
+				C7831C1819D86D49006384A9 /* scheduleItem2.png in Resources */,
+				C7831C1719D86D49006384A9 /* scheduleItem1.png in Resources */,
+				C7A40443192C562B00D4568C /* jearlogo7Small.png in Resources */,
+				C79ECF3D197C9B720021975D /* texasLyceumIcon60px.png in Resources */,
+				C7831BEB19D86D21006384A9 /* texasLyceumIcon58px.png in Resources */,
+				C7DB191119DE25E100320B36 /* Pittard, Kirk.jpg in Resources */,
+				C7DB18EE19DCEFAB00320B36 /* Dippel, Skipper 2014.jpeg in Resources */,
+				C7831BFA19D86D3E006384A9 /* about.png in Resources */,
+				C7831BFF19D86D3E006384A9 /* globe@2x.png in Resources */,
+				C7831BFE19D86D3E006384A9 /* contactIcon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7EF3AF71901A730007F1F1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7EF3B051901A730007F1F1C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7EF3AD11901A730007F1F1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C799DAA2191AF737002E2F60 /* FifthViewController.m in Sources */,
+				C7E4CA9019786A0B0070D26C /* NSDateFormatter+STTwitter.m in Sources */,
+				C7EF3B151901AC87007F1F1C /* FourthViewController.m in Sources */,
+				C7EF3AF21901A730007F1F1C /* SecondViewController.m in Sources */,
+				C787BA801943DA6C00639A59 /* MapPin.m in Sources */,
+				C7EF3B121901AAFC007F1F1C /* ThirdViewController.m in Sources */,
+				C7534ABE198F13930037C5E5 /* SpeakerBios.m in Sources */,
+				C7E4CA9819786A0B0070D26C /* STTwitterOS.m in Sources */,
+				C7E4CA9219786A0B0070D26C /* NSString+STTwitter.m in Sources */,
+				C7FCD8D21979C0B5002CA99C /* TableViewCell.m in Sources */,
+				C7EF3AE91901A730007F1F1C /* AppDelegate.m in Sources */,
+				C7E4CA9919786A0B0070D26C /* STTwitterOSRequest.m in Sources */,
+				C7E4CA9419786A0B0070D26C /* STTwitterAPI.m in Sources */,
+				C73D195D198714C400F532B3 /* Sponsors.m in Sources */,
+				C7E4CA9A19786A0B0070D26C /* BAVPlistNode.m in Sources */,
+				C7E4CA9319786A0B0070D26C /* STHTTPRequest+STTwitter.m in Sources */,
+				C799DAA5191AF9DF002E2F60 /* TableViewCellMore.m in Sources */,
+				C7E4CA9619786A0B0070D26C /* STTwitterHTML.m in Sources */,
+				C799DA5B1919D73F002E2F60 /* SessionViewController.m in Sources */,
+				C7E4CA9B19786A0B0070D26C /* JSONSyntaxHighlight.m in Sources */,
+				C7E4CA9719786A0B0070D26C /* STTwitterOAuth.m in Sources */,
+				C7E4CA9119786A0B0070D26C /* NSError+STTwitter.m in Sources */,
+				C7D15BA0193FA2820065B56C /* About.m in Sources */,
+				C7EF3AEF1901A730007F1F1C /* FirstViewController.m in Sources */,
+				C7E4CA9519786A0B0070D26C /* STTwitterAppOnly.m in Sources */,
+				C7E4CA9C19786A0B0070D26C /* STHTTPRequest.m in Sources */,
+				C7EF3AE51901A730007F1F1C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7EF3AF51901A730007F1F1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7EF3B071901A730007F1F1C /* Texas_LyceumTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7EF3AFF1901A730007F1F1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7EF3AD41901A730007F1F1C /* Texas Lyceum */;
+			targetProxy = C7EF3AFE1901A730007F1F1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C7EF3AE11901A730007F1F1C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7EF3AE21901A730007F1F1C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C7EF3AEA1901A730007F1F1C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7EF3AEB1901A730007F1F1C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C7EF3B031901A730007F1F1C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7EF3B041901A730007F1F1C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7EF3B081901A730007F1F1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Juan Montoya (9JYHQ4XWER)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Juan Montoya (9JYHQ4XWER)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "53AFC599-BE7C-4F48-BEEA-8D2A66EC8449";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C7EF3B091901A730007F1F1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Juan Montoya (9JYHQ4XWER)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Juan Montoya (9JYHQ4XWER)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "53AFC599-BE7C-4F48-BEEA-8D2A66EC8449";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7EF3B0B1901A730007F1F1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Juan Montoya (9JYHQ4XWER)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Juan Montoya (9JYHQ4XWER)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Texas Lyceum/Texas Lyceum-Prefix.pch";
+				INFOPLIST_FILE = "Texas Lyceum/Texas Lyceum-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "57489cb2-b91e-451d-865b-8192aae72de2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C7EF3B0C1901A730007F1F1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Juan Montoya (9JYHQ4XWER)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Juan Montoya (9JYHQ4XWER)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Texas Lyceum/Texas Lyceum-Prefix.pch";
+				INFOPLIST_FILE = "Texas Lyceum/Texas Lyceum-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "57489cb2-b91e-451d-865b-8192aae72de2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C7EF3B0E1901A730007F1F1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Texas Lyceum.app/Texas Lyceum";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Texas Lyceum/Texas Lyceum-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Texas LyceumTests/Texas LyceumTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C7EF3B0F1901A730007F1F1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Texas Lyceum.app/Texas Lyceum";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Texas Lyceum/Texas Lyceum-Prefix.pch";
+				INFOPLIST_FILE = "Texas LyceumTests/Texas LyceumTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7EF3AD01901A730007F1F1C /* Build configuration list for PBXProject "Texas Lyceum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7EF3B081901A730007F1F1C /* Debug */,
+				C7EF3B091901A730007F1F1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7EF3B0A1901A730007F1F1C /* Build configuration list for PBXNativeTarget "Texas Lyceum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7EF3B0B1901A730007F1F1C /* Debug */,
+				C7EF3B0C1901A730007F1F1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7EF3B0D1901A730007F1F1C /* Build configuration list for PBXNativeTarget "Texas LyceumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7EF3B0E1901A730007F1F1C /* Debug */,
+				C7EF3B0F1901A730007F1F1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7EF3ACD1901A730007F1F1C /* Project object */;
+}
